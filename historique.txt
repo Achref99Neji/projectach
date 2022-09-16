@@ -1,0 +1,349 @@
+id :15
+nom :abid
+prenom :mehdi
+nom_societe :abid
+categorie :abid
+email :abid
+-------------
+id :85
+nom :abidm
+prenom :mehdim
+nom_societe :abidm
+categorie :abidm
+email :abidm
+-------------
+id :45
+nom :aza
+prenom :az
+nom_societe :az
+categorie :az
+email :a
+-------------
+id :6969696
+nom :xj
+prenom :x
+nom_societe :xxxx
+categorie :xxxx
+email :dsf@dsf.df
+-------------
+id :
+nom :
+prenom :
+nom_societe :
+categorie :
+email :
+-------------
+id :
+nom :
+prenom :
+nom_societe :
+categorie :
+email :
+-------------
+
+-------------
+
+ Vous avez supprimé 
+
+-------------
+
+ Vous avez modifiee 
+
+-------------
+
+ Vous avez supprimee 
+
+-------------
+id :5016296
+nom :abid
+prenom :mehdi
+nom_societe :abiid
+categorie :abiid
+email :abidmehdi@esprit.tn
+-------------
+id :501627
+nom :abid
+prenom :mehdi
+nom_societe :abiid
+categorie :abiid
+email :abidmehdiesprit.tn
+-------------
+id :50627
+nom :abid
+prenom :mehdi
+nom_societe :abiid
+categorie :abiid
+email :abidmehdi@esprit.tn
+-------------
+
+ Vous avez supprimee 
+
+-------------
+
+ Vous avez modifiee 
+
+-------------
+id :69
+nom :ahmed
+prenom :kizeby
+nom_societe :ahmedkizeby
+categorie :ahmedkizeby
+email :ahmed@kizeby.com
+-------------
+
+ Vous avez supprimee 
+
+-------------
+
+ Vous avez modifiee 
+
+ Vous avez modifiee 
+id :12369
+nom :a
+prenom :aaahah
+nom_societe :ah
+categorie :a
+email :a
+-------------
+
+ Vous avez supprimee 
+
+-------------
+
+ Vous avez modifiee 
+id :264
+nom :dfdsp
+prenom :dsf
+nom_societe :fdsfds
+categorie :fdsjj
+email :gdfg
+-------------
+
+ Vous avez supprimee 
+
+-------------
+id :6969696
+
+ Vous avez supprimee : id :264
+
+---------
+
+ Vous avez modifiee : id :501627
+nom :abid
+prenom :mehdi
+nom_societe :abiidjk
+categorie :abiid
+email :abidmehdiesprit.tn
+-------------
+id :9999999
+nom :mohamed
+prenom :abid
+nom_societe :abid
+categorie :informatique
+email :mohamed@gmail.com
+-------------
+
+ Vous avez supprimee : 
+id :556
+
+---------
+
+ Vous avez modifiee : 
+id :9999999
+nom :lamia
+prenom :abid
+nom_societe :abid
+categorie :informatique
+email :mohamed@gmail.com
+-------------
+
+ Vous avez supprimee : 
+id :9999999
+
+---------
+
+ Vous avez modifiee : 
+id :557
+nom :jjj
+prenom :kj
+nom_societe :lkj
+categorie :lmj
+email :lmi@.tn
+-------------
+id :44
+nom :7
+prenom :h
+nom_societe :h
+categorie :hh
+email :g
+-------------
+
+ Vous avez supprimee : 
+id :557
+
+---------
+id :55
+nom :kk
+prenom :kk
+nom_societe :kk
+categorie :kk
+email :k.k@k.k
+-------------
+id :7
+nom :k
+prenom :k
+nom_societe :k
+categorie :k
+email :m@.m
+-------------
+
+ Vous avez supprimee : 
+id :44
+
+---------
+
+ Vous avez supprimee : 
+id :501627
+
+---------
+id :5789
+nom :j
+prenom :j
+nom_societe :j
+categorie :j
+email :k@k.mm
+-------------
+
+ Vous avez supprimee : 
+id :7
+
+---------
+
+ Vous avez supprimee : 
+id :55
+
+---------
+
+ Vous avez supprimee : 
+id :5016296
+
+---------
+
+ Vous avez supprimee : 
+id :50627
+
+---------
+id :778
+nom :hh
+prenom :h
+nom_societe :h
+categorie :h
+email :h.h@h.h
+-------------
+
+ Vous avez supprimee : 
+id :778
+
+---------
+
+ Vous avez supprimee : 
+id :5789
+
+---------
+id :7
+nom :k
+prenom :k
+nom_societe :k
+categorie :k
+email :k.k@l
+-------------
+id :788
+nom :k
+prenom :k
+nom_societe :k
+categorie :k
+email :k.k@l.m
+-------------
+id :7889988
+nom :k
+prenom :k
+nom_societe :k
+categorie :k
+email :k.k@l.m
+-------------
+
+ Vous avez supprimee : 
+id :7
+
+---------
+
+ Vous avez supprimee : 
+id :788
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :
+
+---------
+
+ Vous avez supprimee : 
+id :7889988
+
+---------
+id :55
+nom :j
+prenom :j
+nom_societe :j
+categorie :j
+email :k@l.l
+-------------
+
+ Vous avez modifiee : 
+id :55
+nom :m
+prenom :m
+nom_societe :jm
+categorie :jm
+email :k@l.lmm
+-------------

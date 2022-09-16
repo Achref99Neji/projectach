@@ -1,0 +1,3355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>915</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des Clients</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QStackedWidget" name="menuu">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>921</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+selection-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 224, 176, 255), stop:0.09 rgba(246, 189, 237, 255), stop:0.14 rgba(194, 207, 246, 255), stop:0.19 rgba(184, 160, 168, 255), stop:0.25 rgba(171, 186, 248, 255), stop:0.32 rgba(243, 248, 224, 255), stop:0.385 rgba(249, 162, 183, 255), stop:0.47 rgba(100, 115, 124, 255), stop:0.58 rgba(251, 205, 202, 255), stop:0.65 rgba(170, 128, 185, 255), stop:0.75 rgba(252, 222, 204, 255), stop:0.805 rgba(206, 122, 218, 255), stop:0.86 rgba(254, 223, 175, 255), stop:0.91 rgba(254, 236, 244, 255), stop:1 rgba(255, 191, 221, 255));</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Menu_app">
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>911</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>-10</y>
+         <width>951</width>
+         <height>581</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_compte_offre">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>210</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Gestion des magasins</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>790</x>
+         <y>380</y>
+         <width>121</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../logoo.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_dd">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>320</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Gestion des clients</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>90</y>
+         <width>351</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Highlight">
+           <brush brushstyle="LinearGradientPattern">
+            <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+             <gradientstop position="0.000000000000000">
+              <color alpha="255">
+               <red>245</red>
+               <green>224</green>
+               <blue>176</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.090000000000000">
+              <color alpha="255">
+               <red>246</red>
+               <green>189</green>
+               <blue>237</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.140000000000000">
+              <color alpha="255">
+               <red>194</red>
+               <green>207</green>
+               <blue>246</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.190000000000000">
+              <color alpha="255">
+               <red>184</red>
+               <green>160</green>
+               <blue>168</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.250000000000000">
+              <color alpha="255">
+               <red>171</red>
+               <green>186</green>
+               <blue>248</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.320000000000000">
+              <color alpha="255">
+               <red>243</red>
+               <green>248</green>
+               <blue>224</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.385000000000000">
+              <color alpha="255">
+               <red>249</red>
+               <green>162</green>
+               <blue>183</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.470000000000000">
+              <color alpha="255">
+               <red>100</red>
+               <green>115</green>
+               <blue>124</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.580000000000000">
+              <color alpha="255">
+               <red>251</red>
+               <green>205</green>
+               <blue>202</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.650000000000000">
+              <color alpha="255">
+               <red>170</red>
+               <green>128</green>
+               <blue>185</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.750000000000000">
+              <color alpha="255">
+               <red>252</red>
+               <green>222</green>
+               <blue>204</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.805000000000000">
+              <color alpha="255">
+               <red>206</red>
+               <green>122</green>
+               <blue>218</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.860000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>223</green>
+               <blue>175</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.910000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>236</green>
+               <blue>244</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="1.000000000000000">
+              <color alpha="255">
+               <red>255</red>
+               <green>191</green>
+               <blue>221</blue>
+              </color>
+             </gradientstop>
+            </gradient>
+           </brush>
+          </colorrole>
+          <colorrole role="LinkVisited">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>85</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Highlight">
+           <brush brushstyle="LinearGradientPattern">
+            <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+             <gradientstop position="0.000000000000000">
+              <color alpha="255">
+               <red>245</red>
+               <green>224</green>
+               <blue>176</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.090000000000000">
+              <color alpha="255">
+               <red>246</red>
+               <green>189</green>
+               <blue>237</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.140000000000000">
+              <color alpha="255">
+               <red>194</red>
+               <green>207</green>
+               <blue>246</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.190000000000000">
+              <color alpha="255">
+               <red>184</red>
+               <green>160</green>
+               <blue>168</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.250000000000000">
+              <color alpha="255">
+               <red>171</red>
+               <green>186</green>
+               <blue>248</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.320000000000000">
+              <color alpha="255">
+               <red>243</red>
+               <green>248</green>
+               <blue>224</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.385000000000000">
+              <color alpha="255">
+               <red>249</red>
+               <green>162</green>
+               <blue>183</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.470000000000000">
+              <color alpha="255">
+               <red>100</red>
+               <green>115</green>
+               <blue>124</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.580000000000000">
+              <color alpha="255">
+               <red>251</red>
+               <green>205</green>
+               <blue>202</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.650000000000000">
+              <color alpha="255">
+               <red>170</red>
+               <green>128</green>
+               <blue>185</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.750000000000000">
+              <color alpha="255">
+               <red>252</red>
+               <green>222</green>
+               <blue>204</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.805000000000000">
+              <color alpha="255">
+               <red>206</red>
+               <green>122</green>
+               <blue>218</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.860000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>223</green>
+               <blue>175</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.910000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>236</green>
+               <blue>244</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="1.000000000000000">
+              <color alpha="255">
+               <red>255</red>
+               <green>191</green>
+               <blue>221</blue>
+              </color>
+             </gradientstop>
+            </gradient>
+           </brush>
+          </colorrole>
+          <colorrole role="LinkVisited">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>85</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Highlight">
+           <brush brushstyle="LinearGradientPattern">
+            <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+             <gradientstop position="0.000000000000000">
+              <color alpha="255">
+               <red>245</red>
+               <green>224</green>
+               <blue>176</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.090000000000000">
+              <color alpha="255">
+               <red>246</red>
+               <green>189</green>
+               <blue>237</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.140000000000000">
+              <color alpha="255">
+               <red>194</red>
+               <green>207</green>
+               <blue>246</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.190000000000000">
+              <color alpha="255">
+               <red>184</red>
+               <green>160</green>
+               <blue>168</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.250000000000000">
+              <color alpha="255">
+               <red>171</red>
+               <green>186</green>
+               <blue>248</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.320000000000000">
+              <color alpha="255">
+               <red>243</red>
+               <green>248</green>
+               <blue>224</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.385000000000000">
+              <color alpha="255">
+               <red>249</red>
+               <green>162</green>
+               <blue>183</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.470000000000000">
+              <color alpha="255">
+               <red>100</red>
+               <green>115</green>
+               <blue>124</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.580000000000000">
+              <color alpha="255">
+               <red>251</red>
+               <green>205</green>
+               <blue>202</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.650000000000000">
+              <color alpha="255">
+               <red>170</red>
+               <green>128</green>
+               <blue>185</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.750000000000000">
+              <color alpha="255">
+               <red>252</red>
+               <green>222</green>
+               <blue>204</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.805000000000000">
+              <color alpha="255">
+               <red>206</red>
+               <green>122</green>
+               <blue>218</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.860000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>223</green>
+               <blue>175</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.910000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>236</green>
+               <blue>244</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="1.000000000000000">
+              <color alpha="255">
+               <red>255</red>
+               <green>191</green>
+               <blue>221</blue>
+              </color>
+             </gradientstop>
+            </gradient>
+           </brush>
+          </colorrole>
+          <colorrole role="LinkVisited">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>85</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>24</pointsize>
+         <weight>9</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <strikeout>false</strikeout>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 24pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Centre Commercial </string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="menu_compteoffre">
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1001</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="title">
+       <string>Menu gestion des magasins</string>
+      </property>
+      <widget class="QPushButton" name="pb_ajouterm">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Ajouter</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_modifierm">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>140</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_supprimerm">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>140</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_afficherm">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>140</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Afficher</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_historique">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>350</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Historique</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_rechercherm">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>350</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Rechercher</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>350</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>lien web</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_ficher_excel">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>350</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>ficher excel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>-10</y>
+         <width>951</width>
+         <height>581</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>800</x>
+         <y>370</y>
+         <width>121</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../logoo.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>40</y>
+         <width>121</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/ajouter.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>30</y>
+         <width>111</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/afficher1.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_41">
+       <property name="geometry">
+        <rect>
+         <x>460</x>
+         <y>40</y>
+         <width>131</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/supprimer.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_42">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>40</y>
+         <width>141</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/modifier.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_43">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>230</y>
+         <width>131</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/recherche.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_44">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>220</y>
+         <width>141</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/historique.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_45">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>240</y>
+         <width>121</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/excel.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_46">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>210</y>
+         <width>141</width>
+         <height>151</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/lien web.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_offre_retour">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>500</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <zorder>label_15</zorder>
+      <zorder>pb_ajouterm</zorder>
+      <zorder>pb_modifierm</zorder>
+      <zorder>pb_supprimerm</zorder>
+      <zorder>pb_afficherm</zorder>
+      <zorder>pb_historique</zorder>
+      <zorder>pb_rechercherm</zorder>
+      <zorder>pushButton_2</zorder>
+      <zorder>pb_ficher_excel</zorder>
+      <zorder>label_29</zorder>
+      <zorder>label_39</zorder>
+      <zorder>label_40</zorder>
+      <zorder>label_41</zorder>
+      <zorder>label_42</zorder>
+      <zorder>label_43</zorder>
+      <zorder>label_44</zorder>
+      <zorder>label_45</zorder>
+      <zorder>label_46</zorder>
+      <zorder>pb_offre_retour</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ajouteroffre">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>911</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="title">
+       <string>Ajouter votre magasin</string>
+      </property>
+      <widget class="QLineEdit" name="nom">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>140</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="prenom">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>210</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="id">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>70</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nomsoc">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>280</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="categorie">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>350</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="email">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>420</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_ajouter">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>400</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Ajouter</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_retour_ajouter">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>490</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>0</y>
+         <width>911</width>
+         <height>561</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>290</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Nom du boutique</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>330</y>
+         <width>161</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Chiffre d'affaire du mois</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>80</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Identifiant :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>categorie des clients</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>430</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Email </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>150</y>
+         <width>201</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>propreitaire</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>350</y>
+         <width>161</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>1=1000DT</string>
+       </property>
+      </widget>
+      <zorder>label_17</zorder>
+      <zorder>nom</zorder>
+      <zorder>prenom</zorder>
+      <zorder>id</zorder>
+      <zorder>nomsoc</zorder>
+      <zorder>categorie</zorder>
+      <zorder>email</zorder>
+      <zorder>pb_ajouter</zorder>
+      <zorder>pb_retour_ajouter</zorder>
+      <zorder>label_23</zorder>
+      <zorder>label_26</zorder>
+      <zorder>label_27</zorder>
+      <zorder>label_28</zorder>
+      <zorder>label_48</zorder>
+      <zorder>label_49</zorder>
+      <zorder>label_30</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="afficheroffre">
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>911</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="title">
+       <string>Afficher votre magasin</string>
+      </property>
+      <widget class="QTableView" name="tab_compte">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>731</width>
+         <height>141</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_retour_afficher">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>480</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_trier">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>180</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Trier par ID</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_trier_nom">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>180</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Trier par Nom</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_trier_email">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>180</y>
+         <width>151</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Trier par Email</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>0</y>
+         <width>931</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QCustomPlot" name="plot" native="true">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>240</y>
+         <width>601</width>
+         <height>331</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_stat">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>410</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Statistique </string>
+       </property>
+      </widget>
+      <zorder>label_20</zorder>
+      <zorder>tab_compte</zorder>
+      <zorder>pb_retour_afficher</zorder>
+      <zorder>pb_trier</zorder>
+      <zorder>pb_trier_nom</zorder>
+      <zorder>pb_trier_email</zorder>
+      <zorder>plot</zorder>
+      <zorder>pb_stat</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="supprimeroffre">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-10</y>
+        <width>911</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="title">
+       <string>Supprimer votre magasin</string>
+      </property>
+      <widget class="QPushButton" name="id_2">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>90</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>90</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Listes des ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
+font: 75 20pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Identifiant :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="idsupp">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>250</y>
+         <width>291</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_supprimer">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>410</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_retour_supp">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>490</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>140</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>911</width>
+         <height>561</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="etat">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>380</y>
+         <width>47</width>
+         <height>14</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <zorder>label_21</zorder>
+      <zorder>id_2</zorder>
+      <zorder>label_14</zorder>
+      <zorder>label_7</zorder>
+      <zorder>idsupp</zorder>
+      <zorder>pb_supprimer</zorder>
+      <zorder>pb_retour_supp</zorder>
+      <zorder>comboBox</zorder>
+      <zorder>etat</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="modifieroffre">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-10</y>
+        <width>911</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="title">
+       <string>Modifier votre magasin</string>
+      </property>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>170</y>
+         <width>121</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>proprietaire</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>240</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>categorie des clients</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>100</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Identifiant :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nom_mod">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>160</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="prenom_mod">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>230</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="id_mod">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>90</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>310</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Nom du boutique</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>380</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Chiffre d'affaire</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>450</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Email </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nomsoc_mod">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>300</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="categorie_mod">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>370</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="email_mod">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>440</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_modifier">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>420</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_retour_modifier">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>500</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_m">
+       <property name="geometry">
+        <rect>
+         <x>630</x>
+         <y>70</y>
+         <width>171</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="id_m">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>70</y>
+         <width>51</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>911</width>
+         <height>581</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <zorder>label_22</zorder>
+      <zorder>label_8</zorder>
+      <zorder>label_9</zorder>
+      <zorder>label_10</zorder>
+      <zorder>nom_mod</zorder>
+      <zorder>prenom_mod</zorder>
+      <zorder>id_mod</zorder>
+      <zorder>label_11</zorder>
+      <zorder>label_12</zorder>
+      <zorder>label_13</zorder>
+      <zorder>nomsoc_mod</zorder>
+      <zorder>categorie_mod</zorder>
+      <zorder>email_mod</zorder>
+      <zorder>pb_modifier</zorder>
+      <zorder>pb_retour_modifier</zorder>
+      <zorder>comboBox_m</zorder>
+      <zorder>id_m</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="rechercheoffre">
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>921</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rechercher</string>
+      </property>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>90</y>
+         <width>47</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>ID :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="id_rechercher">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>80</y>
+         <width>113</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_retour_rechercher">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>500</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QTableView" name="tab_compte_recherche">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>150</y>
+         <width>761</width>
+         <height>341</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>90</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Nom :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>90</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Email :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nom_rechercher">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>80</y>
+         <width>113</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="email_rechercher">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>80</y>
+         <width>113</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>911</width>
+         <height>561</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_47">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>40</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Recherche par :</string>
+       </property>
+      </widget>
+      <zorder>label_24</zorder>
+      <zorder>label_16</zorder>
+      <zorder>id_rechercher</zorder>
+      <zorder>pb_retour_rechercher</zorder>
+      <zorder>tab_compte_recherche</zorder>
+      <zorder>label_18</zorder>
+      <zorder>label_19</zorder>
+      <zorder>nom_rechercher</zorder>
+      <zorder>email_rechercher</zorder>
+      <zorder>label_47</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="historiqueoffre">
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>911</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Historique</string>
+      </property>
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>621</width>
+         <height>431</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_retour_historique">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>480</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_afficher_historique">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>80</y>
+         <width>131</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Afficher</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>-20</x>
+         <y>-10</y>
+         <width>981</width>
+         <height>611</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <zorder>label_25</zorder>
+      <zorder>textBrowser</zorder>
+      <zorder>pb_retour_historique</zorder>
+      <zorder>pb_afficher_historique</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="menu_compte_dd">
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>911</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Menu Gestin des Clients</string>
+      </property>
+      <widget class="QLabel" name="label_57">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>40</y>
+         <width>111</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../ajouterr.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_58">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>40</y>
+         <width>111</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../aficherrr.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_59">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>370</y>
+         <width>121</width>
+         <height>191</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../logoo.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_60">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>40</y>
+         <width>91</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../modifff.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_demande_retour">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>500</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_62">
+       <property name="geometry">
+        <rect>
+         <x>-50</x>
+         <y>-10</y>
+         <width>1031</width>
+         <height>581</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../bgg.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_demande_ajouter">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>170</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Ajouter</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_demande_modifier">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>170</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_demande_rechercher">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>410</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Supprimer/rechercher</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_demande_imprimer">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>410</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>imprimer/creer un ficher excel</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_demande_afficher">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>170</y>
+         <width>211</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Afficher/trier</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_63">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>290</y>
+         <width>121</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/excel.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_50">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>280</y>
+         <width>151</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/recherche.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_56">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>60</y>
+         <width>121</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/ajouter.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_54">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>50</y>
+         <width>111</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/afficher1.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_52">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>60</y>
+         <width>141</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Nouveau dossier/modifier.png</pixmap>
+       </property>
+      </widget>
+      <zorder>label_62</zorder>
+      <zorder>label_57</zorder>
+      <zorder>label_58</zorder>
+      <zorder>label_59</zorder>
+      <zorder>label_60</zorder>
+      <zorder>pb_demande_retour</zorder>
+      <zorder>pb_demande_ajouter</zorder>
+      <zorder>pb_demande_modifier</zorder>
+      <zorder>pb_demande_rechercher</zorder>
+      <zorder>pb_demande_imprimer</zorder>
+      <zorder>pb_demande_afficher</zorder>
+      <zorder>label_63</zorder>
+      <zorder>label_50</zorder>
+      <zorder>label_56</zorder>
+      <zorder>label_54</zorder>
+      <zorder>label_52</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="ajouter_demande">
+     <widget class="QPushButton" name="pb_ajouterIM">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>380</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Ajouter</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="categorieA">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>420</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="prenomA">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>270</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="nomA">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>200</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_r1">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>470</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="mailA">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>340</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="IDDA">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>130</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_117">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>270</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_118">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>120</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_119">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>200</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Prenom</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_120">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>340</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Mail</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_121">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>410</y>
+        <width>71</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Categorie</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="afficher_demande">
+     <widget class="QTableView" name="affichage">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>721</width>
+        <height>371</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_trierIM">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>440</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Trier par ID</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_r2">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>470</y>
+        <width>131</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_trierIM_2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>440</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Trier par Nom</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_trierIM_3">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>440</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Trier par Mail</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="supprimer_rechercher_demande">
+     <widget class="QGroupBox" name="groupBox_18">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>851</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="id_suppIM_3">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>10</y>
+         <width>421</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgb(255, 255, 255)</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_108">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>0</y>
+         <width>131</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Inserer l'ID/Nom/Mail</string>
+       </property>
+      </widget>
+      <widget class="QTableView" name="affichage_2">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>50</y>
+         <width>761</width>
+         <height>231</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pb_r3">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>500</y>
+        <width>121</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_rechercherIM">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>360</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Rechercher par ID</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_rechercherIM_2">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>360</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Rechercher par Nom</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_rechercherIM_3">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>360</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Rechercher par Mail</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_supprimerIM">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>460</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Supprimer</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="modifier_demande">
+     <widget class="QGroupBox" name="groupBox_19">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>30</y>
+        <width>811</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_112">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>90</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Nom</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_113">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>140</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Prenom</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_114">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>190</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_115">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>260</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Mail</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_116">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>330</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>Categorie</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="nomM">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>100</y>
+         <width>231</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="prenomM">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>140</y>
+         <width>231</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="IDDM">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>190</y>
+         <width>231</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="mailM">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>270</y>
+         <width>231</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="categorieM">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>340</y>
+         <width>231</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_modifierIM">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>330</y>
+         <width>121</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Text">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="ButtonText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Highlight">
+           <brush brushstyle="LinearGradientPattern">
+            <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+             <gradientstop position="0.000000000000000">
+              <color alpha="255">
+               <red>245</red>
+               <green>224</green>
+               <blue>176</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.090000000000000">
+              <color alpha="255">
+               <red>246</red>
+               <green>189</green>
+               <blue>237</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.140000000000000">
+              <color alpha="255">
+               <red>194</red>
+               <green>207</green>
+               <blue>246</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.190000000000000">
+              <color alpha="255">
+               <red>184</red>
+               <green>160</green>
+               <blue>168</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.250000000000000">
+              <color alpha="255">
+               <red>171</red>
+               <green>186</green>
+               <blue>248</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.320000000000000">
+              <color alpha="255">
+               <red>243</red>
+               <green>248</green>
+               <blue>224</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.385000000000000">
+              <color alpha="255">
+               <red>249</red>
+               <green>162</green>
+               <blue>183</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.470000000000000">
+              <color alpha="255">
+               <red>100</red>
+               <green>115</green>
+               <blue>124</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.580000000000000">
+              <color alpha="255">
+               <red>251</red>
+               <green>205</green>
+               <blue>202</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.650000000000000">
+              <color alpha="255">
+               <red>170</red>
+               <green>128</green>
+               <blue>185</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.750000000000000">
+              <color alpha="255">
+               <red>252</red>
+               <green>222</green>
+               <blue>204</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.805000000000000">
+              <color alpha="255">
+               <red>206</red>
+               <green>122</green>
+               <blue>218</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.860000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>223</green>
+               <blue>175</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.910000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>236</green>
+               <blue>244</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="1.000000000000000">
+              <color alpha="255">
+               <red>255</red>
+               <green>191</green>
+               <blue>221</blue>
+              </color>
+             </gradientstop>
+            </gradient>
+           </brush>
+          </colorrole>
+          <colorrole role="PlaceholderText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="128">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Text">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="ButtonText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Highlight">
+           <brush brushstyle="LinearGradientPattern">
+            <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+             <gradientstop position="0.000000000000000">
+              <color alpha="255">
+               <red>245</red>
+               <green>224</green>
+               <blue>176</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.090000000000000">
+              <color alpha="255">
+               <red>246</red>
+               <green>189</green>
+               <blue>237</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.140000000000000">
+              <color alpha="255">
+               <red>194</red>
+               <green>207</green>
+               <blue>246</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.190000000000000">
+              <color alpha="255">
+               <red>184</red>
+               <green>160</green>
+               <blue>168</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.250000000000000">
+              <color alpha="255">
+               <red>171</red>
+               <green>186</green>
+               <blue>248</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.320000000000000">
+              <color alpha="255">
+               <red>243</red>
+               <green>248</green>
+               <blue>224</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.385000000000000">
+              <color alpha="255">
+               <red>249</red>
+               <green>162</green>
+               <blue>183</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.470000000000000">
+              <color alpha="255">
+               <red>100</red>
+               <green>115</green>
+               <blue>124</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.580000000000000">
+              <color alpha="255">
+               <red>251</red>
+               <green>205</green>
+               <blue>202</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.650000000000000">
+              <color alpha="255">
+               <red>170</red>
+               <green>128</green>
+               <blue>185</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.750000000000000">
+              <color alpha="255">
+               <red>252</red>
+               <green>222</green>
+               <blue>204</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.805000000000000">
+              <color alpha="255">
+               <red>206</red>
+               <green>122</green>
+               <blue>218</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.860000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>223</green>
+               <blue>175</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.910000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>236</green>
+               <blue>244</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="1.000000000000000">
+              <color alpha="255">
+               <red>255</red>
+               <green>191</green>
+               <blue>221</blue>
+              </color>
+             </gradientstop>
+            </gradient>
+           </brush>
+          </colorrole>
+          <colorrole role="PlaceholderText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="128">
+             <red>170</red>
+             <green>0</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Text">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="ButtonText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>120</red>
+             <green>120</green>
+             <blue>120</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Highlight">
+           <brush brushstyle="LinearGradientPattern">
+            <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+             <gradientstop position="0.000000000000000">
+              <color alpha="255">
+               <red>245</red>
+               <green>224</green>
+               <blue>176</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.090000000000000">
+              <color alpha="255">
+               <red>246</red>
+               <green>189</green>
+               <blue>237</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.140000000000000">
+              <color alpha="255">
+               <red>194</red>
+               <green>207</green>
+               <blue>246</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.190000000000000">
+              <color alpha="255">
+               <red>184</red>
+               <green>160</green>
+               <blue>168</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.250000000000000">
+              <color alpha="255">
+               <red>171</red>
+               <green>186</green>
+               <blue>248</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.320000000000000">
+              <color alpha="255">
+               <red>243</red>
+               <green>248</green>
+               <blue>224</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.385000000000000">
+              <color alpha="255">
+               <red>249</red>
+               <green>162</green>
+               <blue>183</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.470000000000000">
+              <color alpha="255">
+               <red>100</red>
+               <green>115</green>
+               <blue>124</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.580000000000000">
+              <color alpha="255">
+               <red>251</red>
+               <green>205</green>
+               <blue>202</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.650000000000000">
+              <color alpha="255">
+               <red>170</red>
+               <green>128</green>
+               <blue>185</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.750000000000000">
+              <color alpha="255">
+               <red>252</red>
+               <green>222</green>
+               <blue>204</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.805000000000000">
+              <color alpha="255">
+               <red>206</red>
+               <green>122</green>
+               <blue>218</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.860000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>223</green>
+               <blue>175</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="0.910000000000000">
+              <color alpha="255">
+               <red>254</red>
+               <green>236</green>
+               <blue>244</blue>
+              </color>
+             </gradientstop>
+             <gradientstop position="1.000000000000000">
+              <color alpha="255">
+               <red>255</red>
+               <green>191</green>
+               <blue>221</blue>
+              </color>
+             </gradientstop>
+            </gradient>
+           </brush>
+          </colorrole>
+          <colorrole role="PlaceholderText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="128">
+             <red>0</red>
+             <green>0</green>
+             <blue>0</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>modifier</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pb_r4">
+       <property name="geometry">
+        <rect>
+         <x>670</x>
+         <y>420</y>
+         <width>121</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 255);</string>
+       </property>
+       <property name="text">
+        <string>Retour</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_122">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>400</y>
+         <width>311</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>la categorie est le domaine d'interet du client </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_123">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>420</y>
+         <width>441</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="mouseTracking">
+        <bool>false</bool>
+       </property>
+       <property name="tabletTracking">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string>chaque client peut avoir une seule categorie selon la somme d'argent payée</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="excel_imp_demande">
+     <widget class="QPushButton" name="pb_printIM">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>410</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>valider et imprimer</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_excelIM">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>410</y>
+        <width>151</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>EXCEL</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="affichage_3">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>30</y>
+        <width>721</width>
+        <height>371</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_r5">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>470</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(170, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Retour</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>915</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header location="global">../../qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
